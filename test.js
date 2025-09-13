@@ -4,10 +4,10 @@ function hienthitentuoi(name,age) {
 }
 hienthitentuoi("Hoàng",21)
 
-// function tinhnamsinh(namsinh){
-//     const namHientai = new Date().getFullYear();
-//     return namHientai -namsinh
-// }
-// const namsinh = 2003
-// const age =  tinhnamsinh(namsinh)
-// hienthitentuoi("Nam", age);
+function tinhnamsinh(namsinh){
+    const namHientai = new Date().getFullYear();
+    return namHientai -namsinh
+}
+const namsinh = 2003
+const age =  tinhnamsinh(namsinh)
+hienthitentuoi("Nam", age);
